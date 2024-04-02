@@ -6,18 +6,6 @@ const Categories = ({ navigation }) => {
 
     const [categories, setCategories] = useState(['Chemistry', 'Economics', 'Literature', 'Peace', 'Physics', 'Physiology or Medicine'])
 
-    // const [years, setYears] = useState([]);
-
-    // const fetchData = async () => {
-    //     const response = await fetch('https://api.nobelprize.org/2.1/nobelPrizes?yearTo=2023');
-    //     const data = await response.json();
-
-    //     console.log(data);
-    // }
-
-    // useEffect(() => {
-    //     fetchData();
-    // }, [])
 
     return (
         <ScrollView>
